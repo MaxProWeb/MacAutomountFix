@@ -3,7 +3,7 @@
 
 1. Create a directory where you are mounting afp or smb 
 2. Edit config with: 
-```sudo nano /etc/fstab```
+```bash sudo nano /etc/fstab```
 3. Add a line in the file 
 ```YOUR_NAS:/YOUR_SHARE /Users/simon/Shares/Movies url auto,user,umask=775,url==afp://YOUR_LOGON:YOUR_PASS@YOUR_NAS/YOUR_SHARE 0 0```
 My Example:
