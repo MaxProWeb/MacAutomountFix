@@ -44,8 +44,6 @@ The mounted directory permission will be fixed.
 ####Please, change "AFP_DIR=~/root/" to your mouting point ! ####
 
 Sources links:
-
-https://forums.plex.tv/index.php/topic/14201-howto-automount-afpsmb-shares-using-autofs/
-
-http://grokin.gs/blog/2013/03/11/lion-and-automounter/
+- https://forums.plex.tv/index.php/topic/14201-howto-automount-afpsmb-shares-using-autofs/
+- http://grokin.gs/blog/2013/03/11/lion-and-automounter/
 
