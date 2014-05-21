@@ -32,12 +32,18 @@ You may get some times an issue with permission with message:
 "The folder “Test” can’t be opened because you don’t have permission to see its contents."
 You can fix the issue with run the script fix.sh 
 
+## Usage ##
+You can pass directoryies as parameters. 
+It may be nessesary to delete ".DS_Store" in parent directory.
+```bash
+	fix.sh ~/root ~/tmp ~/Movies
+```
+
 ###The script will do:###
 1. disable wifi 
 2. try to access mounted directory 
 3. enable wifi 
 4. try to access mounted directory 
-5. deleted folder index cache .DS_Store
 
 The mounted directory permission will be fixed.
 
