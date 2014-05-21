@@ -14,13 +14,14 @@ YOUR_NAS:/YOUR_SHARE /Users/simon/Shares/Movies url auto,user,umask=775,url==afp
 My Example:
 10.0.2.1:/example /Users/max/example url auto,user,umask=775,url==afp://user:password@10.0.2.1/example 0 0
 
-4) sudo automount -vc
+4) 
+```sudo automount -vc```
 
 5) You will get a message
-automount: /net updated
+```automount: /net updated
 automount: /home updated
 automount: /Users/max/example mounted
-automount: no unmounts
+automount: no unmounts```
 
 == the issue ==
 You may get some times an issue with permission with message: 
