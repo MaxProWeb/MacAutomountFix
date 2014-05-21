@@ -13,6 +13,10 @@ It may be nessesary to delete ".DS_Store" in parent directory.
 	fix.sh ~/root ~/tmp ~/Movies
 ```
 
+## The automount.sh ##
+I created a script with my mount pount directory. 
+Mac OSX runs the script after login and solve the issue if it is exist.
+
 ###The script will do:###
 1. disable wifi 
 2. try to access mounted directory 
