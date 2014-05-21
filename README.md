@@ -1,12 +1,12 @@
 
 #Mac Automount permission issue fix. #
 
-1. Create a directory where you are mounting afp or smb 
-2. Edit config with: 
+#### 1) Create a directory where you are mounting afp or smb ####
+#### 2) Edit config with: ####
 ```bash 
 	sudo nano /etc/fstab
 ```
-3. Add a line in the file 
+#### 3) Add a line in the file ####
 ```bash 
 YOUR_NAS:/YOUR_SHARE /Users/simon/Shares/Movies url auto,user,umask=775,url==afp://YOUR_LOGON:YOUR_PASS@YOUR_NAS/YOUR_SHARE 0 0
 ```
@@ -14,12 +14,12 @@ My Example:
 ```bash 
 10.0.2.1:/example /Users/max/example url auto,user,umask=775,url==afp://user:password@10.0.2.1/example 0 0
 ```
-4.  
+#### 4) reload config ####
 ```bash 
 sudo automount -vc
 ```
 
-5. You will get a message
+#### 5. You will get a message like this ####
 ```bash 
 automount: /net updated
 automount: /home updated
