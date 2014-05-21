@@ -39,7 +39,7 @@ You can fix the issue with run the script fix.sh
 4. try to access mounted directory 
 5. deleted folder index cache .DS_Store
 
-*Please, change "AFP_DIR=~/root/" to your mouting point ! *
+####Please, change "AFP_DIR=~/root/" to your mouting point ! ####
 
 The mounted directory permission will be fixed.
 
