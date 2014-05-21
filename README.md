@@ -6,7 +6,7 @@ You may get some times an issue with permission with message:
 "The folder “Test” can’t be opened because you don’t have permission to see its contents."
 You can fix the issue with run the script fix.sh 
 
-## Usage ##
+## The fix.sh usage ##
 You can pass directoryies as parameters. 
 It may be nessesary to delete ".DS_Store" in parent directory.
 ```bash
