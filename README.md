@@ -1,7 +1,7 @@
 
 #Mac Automount permission issue fix. #
 
-#### 1) Create a directory where you are mounting afp or smb ####
+#### 1) Create a directory where you are goint to mount network file system####
 #### 2) Edit config with: ####
 ```bash 
 	sudo nano /etc/fstab
@@ -27,7 +27,7 @@ automount: /Users/max/example mounted
 automount: no unmounts
 ```
 
-## the issue ##
+## The permission issue.##
 You may get some times an issue with permission with message: 
 "The folder “Test” can’t be opened because you don’t have permission to see its contents."
 You can fix the issue with run the script fix.sh 
@@ -38,6 +38,8 @@ You can fix the issue with run the script fix.sh
 3. enable wifi 
 4. try to access mounted directory 
 5. deleted folder index cache .DS_Store
+
+*Please, change "AFP_DIR=~/root/" to your mouting point ! *
 
 The mounted directory permission will be fixed.
 
